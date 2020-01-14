@@ -1,5 +1,5 @@
 applications:
-- name: my-static-site
+- name: staticfile_app
   memory: 32M
   instances: 1
   buildpack: staticfile-buildpack
