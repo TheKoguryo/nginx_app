@@ -2,5 +2,5 @@ applications:
 - name: staticfile_app
   memory: 32M
   instances: 1
-  buildpack: staticfile-buildpack
+  buildpack: staticfile_buildpack
   random-route: true
