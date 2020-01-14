@@ -1,0 +1,6 @@
+applications:
+- name: my-static-site
+  memory: 32M
+  instances: 1
+  buildpack: staticfile-buildpack
+  random-route: true
