@@ -1,6 +1,7 @@
 applications:
-- name: staticfile_app
+- name: nginxc_app
   memory: 32M
   instances: 1
-  buildpack: staticfile_buildpack
+  buildpack: nginx_buildpack
+  domain: cfapps.pas.haas-424.pez.pivotal.io
   random-route: true
